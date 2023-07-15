@@ -1,0 +1,79 @@
+version: '3.1'
+
+stories:
+  - story: User mencari informasi gigades
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: informasi_gigades
+      - action: utter_info_gigades
+
+  - story: User mencari harga gigades
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_harga_aplikasi
+      - action: utter_info_harga_gigades
+
+  - story: User mencari harga produk
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_harga_aplikasi
+      - action: utter_info_harga_produk
+
+  - story: User menanyakan biaya langganan
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_biaya
+      - action: utter_info_biaya_langganan
+
+  - story: User menanyakan layanan gigades
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_layanan
+      - action: utter_inform_layanan
+
+  - story: User menanyakan testimoni
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_pengguna
+      - action: utter_info_desa_pengguna
+
+  - story: User menanyakan tutorial
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_tutorial
+      - action: utter_tutorial_pemakaian
+
+  - story: User mengucapkan terima kasih
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: thank
+      - action: utter_thank
+
+  - story: Informasi Alamat
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_alamat
+      - action: utter_inform_alamat
+
+  - story: Kaduan Teknis
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: kaduan_teknis
+      - action: utter_kaduan_teknis
+
+  - story: Hubungi Customer Service
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: hubungi_cs
+      - action: utter_hubungi_cs

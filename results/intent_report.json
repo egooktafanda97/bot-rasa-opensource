@@ -1,0 +1,104 @@
+{
+  "thank": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "inform_biaya": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 11,
+    "confused_with": {
+      "inform_harga_aplikasi": 1
+    }
+  },
+  "inform_tutorial": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "inform_harga_aplikasi": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "inform_alamat": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "kaduan_teknis": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "hubungi_cs": 1
+    }
+  },
+  "hubungi_cs": {
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1-score": 0.875,
+    "support": 8,
+    "confused_with": {
+      "greet": 1
+    }
+  },
+  "informasi_gigades": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "inform_pengguna": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "inform_layanan": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "accuracy": 0.9727272727272728,
+  "macro avg": {
+    "precision": 0.9727961432506887,
+    "recall": 0.96900826446281,
+    "f1-score": 0.9699651797477884,
+    "support": 110
+  },
+  "weighted avg": {
+    "precision": 0.9743112947658402,
+    "recall": 0.9727272727272728,
+    "f1-score": 0.9726218708827404,
+    "support": 110
+  },
+  "micro avg": {
+    "precision": 0.9727272727272728,
+    "recall": 0.9727272727272728,
+    "f1-score": 0.9727272727272728,
+    "support": 110
+  }
+}

@@ -1,0 +1,109 @@
+version: '3.1'
+
+intents:
+- greet
+- informasi_gigades
+- inform_harga_aplikasi
+- inform_biaya
+- inform_layanan
+- inform_pengguna
+- inform_tutorial
+- inform_alamat
+- kaduan_teknis
+- hubungi_cs
+- thank
+
+responses:
+  utter_greet:
+  - text: 'Halo! Selamat datang di Gigades.id, aplikasi terbaik untuk kebutuhan Desa Bapak/Ibu.'
+  - text: 'Kami sangat senang Bapak/Ibu bergabung dengan Gigades.id. Jika Bapak/Ibu memiliki pertanyaan atau membutuhkan bantuan tentang Gigades.id, jangan ragu untuk menghubungi kami. Kami siap membantu Bapak/Ibu.'
+  - text: 'Wa`alaikumsalam Selamat datang di Gigades.id, aplikasi terbaik untuk kebutuhan Desa Bapak/Ibu.'
+
+  utter_info_gigades:
+  - text: "Kami menyediakan Layanan Digital untuk memudahkan administrasi pelayanan masyarakat yang dimulai dari tingkat desa hingga ke tingkat kabupaten."
+  - text: "Gigades adalah sebuah platform yang menawarkan Layanan Digital untuk memudahkan administrasi pelayanan masyarakat mulai dari tingkat desa hingga kabupaten."
+  - text: "Gigades hadir dengan Layanan Digital yang bertujuan untuk mempermudah administrasi pelayanan masyarakat dari tingkat desa hingga kabupaten."
+  - text: "Kami berfokus pada Layanan Digital yang dapat memudahkan administrasi pelayanan masyarakat dari tingkat desa hingga kabupaten."
+  - text: "Gigades menyediakan berbagai Layanan Digital yang membantu dalam administrasi pelayanan masyarakat dari tingkat desa hingga kabupaten."
+  - text: 'Gigades menyediakan berbagai Layanan Digital Untuk informasi lebih lanjut mengenai Profil dan Brosur, silahkan kunjungi website resmi kami di www.gigades.id.'
+  - text: 'Bapak/Ibu dapat menemukan semua informasi terkait Gigades.id dan jangan lupa untuk mengisi data diri.'
+  - text: "Gigades.id dikelola oleh PT. Phoenix Kreatif Digital. PT. Phoenix Kreatif Digital adalah perusahaan yang bertanggung jawab atas pengembangan dan pengelolaan Gigades.id. Kami menyediakan layanan digital untuk memudahkan administrasi pelayanan masyarakat mulai dari tingkat desa hingga kabupaten."
+
+  utter_info_harga_gigades:
+  - text: 'Harga aplikasi Desa Gigades.id adalah XXXX.'
+  - text: 'Untuk informasi terkait harga aplikasi Desa Gigades.id, silakan menghubungi tim kami di XXXX.'
+  - text: 'Apakah ada pertanyaan lain yang bisa saya bantu?'
+
+  utter_info_biaya_langganan:
+  - text: 'Berikut adalah informasi mengenai biaya langganan Gigades:
+    - Biaya instalasi: [jumlah biaya instalasi]
+    - Biaya perbulan: [jumlah biaya perbulan]
+    - Sistem pembayaran: [penjelasan tentang sistem pembayaran]
+    - Biaya tambahan: [penjelasan tentang adanya atau tidaknya biaya tambahan]
+    - Informasi lengkap tentang biaya Gigades dapat Anda dapatkan dengan menghubungi tim kami di XXXX.'
+  - text: 'Untuk biaya langganan Gigades, berlaku:
+    - Biaya instalasi: [jumlah biaya instalasi]
+    - Biaya perbulan: [jumlah biaya perbulan]
+    - Sistem pembayaran: [penjelasan tentang sistem pembayaran]
+    - Biaya tambahan: [penjelasan tentang adanya atau tidaknya biaya tambahan]
+    Jika Anda membutuhkan informasi lebih detail atau memiliki pertanyaan lain terkait biaya, silakan hubungi tim kami di XXXX.'
+
+  utter_info_desa_pengguna:
+  - text: 'Berikut adalah beberapa desa yang menggunakan Gigades.id:'
+  - text: '- Singingi Hilir: Tanjung Pauh, Petai, Bukit Raya, Sungai Buluh, Suka Damai, Muara Bahan, Beringin Jaya'
+  - text: '- Singingi: Logas, Sungai Kuning, Petai Baru'
+  - text: '- Kuantan Tengah: Beringin Taluk, Pulau Banjar Kari'
+  - text: '- Hulu Kuantan: Serosah, Sungai Kelelawar'
+  - text: '- Sentajo Raya: Koto Sentajo, Muara Langsat'
+  - text: '- Benai: Koto Benai, Gunung Kesiangan, Banjar Lopak, Tebing Tinggi'
+  - text: '- Kuantan Hilir Seberang: Danau'
+
+  utter_info_harga_produk:
+  - text: 'Halo! Terima kasih atas minat Bapak/Ibu terhadap Harga Produk Gigades.id.
+      Untuk melihat harga produk, silahkan kunjungi website resmi kami di www.gigades.id.
+      Di sana, Bapak/Ibu dapat melihat informasi terkait Harga Produk Gigades.id.
+      Pastikan Bapak/Ibu telah mengisi data diri dengan lengkap untuk mendapatkan kemudahan dalam melihat Harga Produk.'
+
+  utter_tutorial_pemakaian:
+  - text: 'Halo! Terima kasih atas minat Bapak/Ibu untuk mendapatkan Tutorial Pemakaian Gigades.id.'
+  - text: 'Untuk tutorial lengkap penggunaan Gigades.id, silahkan kunjungi link berikut di YouTube Gigades.id sesuai dengan judul tutorial pemakaian Gigades.id:'
+  - text: '- Link1'
+  - text: '- Link2'
+  - text: '- Link3'
+  - text: '- Link4'
+  - text: '- Link5'
+  - text: 'Di video tersebut, Bapak/Ibu akan mendapatkan panduan langkah demi langkah tentang cara menggunakan berbagai fitur dan layanan yang tersedia di Gigades.id. Selamat menonton!'
+
+  utter_inform_layanan:
+  - text: 'Gigades menyediakan berbagai layanan untuk pengelolaan administrasi desa, antara lain:
+    1. Aplikasi Desa Phoenix: Aplikasi ini membantu dalam pengelolaan administrasi desa, termasuk data penduduk, keuangan desa, dan komunikasi antara pemerintah desa dan warga.
+    2. Layanan konsultasi: Gigades juga menyediakan layanan konsultasi untuk membantu desa-desa dalam mengoptimalkan pengelolaan administrasi.
+    Jika Anda ingin mendapatkan informasi lebih lanjut tentang layanan-layanan tersebut, silakan hubungi tim kami di XXXX.'
+  - text: 'Gigades memiliki berbagai layanan yang dapat membantu desa-desa, termasuk:
+    1. Aplikasi Desa Phoenix: Aplikasi ini menyediakan fitur untuk pengelolaan administrasi desa, seperti pengelolaan data penduduk, keuangan desa, dan komunikasi antara pemerintah desa dan warga.
+    2. Layanan konsultasi: Gigades juga menyediakan layanan konsultasi untuk membantu desa-desa dalam meningkatkan efisiensi administrasi.
+    Untuk informasi lebih lanjut tentang layanan-layanan tersebut, silakan hubungi tim kami di XXXX.'
+
+  utter_kaduan_teknis:
+  - text: 'Terima kasih telah menghubungi Gigades.id untuk kemudahan dan kepentingan pengguna.
+      Kami menerapkan langkah-langkah verifikasi yang melibatkan pengisian nama, Desa, dan nomor telepon.
+      Langkah ini bertujuan untuk memastikan bahwa Bapak/Ibu adalah pengguna yang sah dan memberikan akses yang tepat kepada Desa yang telah bergabung dengan Gigades.id.
+      Setelah mengisi data dengan lengkap, tunggu 30 menit untuk admin merespon Kaduan Teknis Bapak/Ibu.
+      Jika admin tidak merespon dalam waktu 30 menit, pesan Bapak/Ibu akan dikembalikan ke Pesan awal. Terima kasih!'
+
+  utter_hubungi_cs:
+  - text: 'Terima kasih atas minat Bapak/Ibu untuk menghubungi Customer Service kami.
+      Sebelumnya, kami meminta Bapak/Ibu untuk mengisi data dengan lengkap agar kami memiliki informasi yang diperlukan untuk membantu Bapak/Ibu secara efektif.
+      Jangan khawatir, informasi yang Bapak/Ibu berikan akan diperlakukan secara rahasia dan sesuai dengan kebijakan privasi kami.
+      Setelah mengisi data dengan lengkap, Bapak/Ibu silahkan menunggu 30 menit untuk mendapatkan respon dari CS kami.
+      Jika CS tidak merespon dalam waktu 30 menit, pesan Bapak/Ibu akan dikembalikan ke pesan awal. Terima Kasih!'
+
+  utter_inform_alamat:
+    - text: "Alamat PT. Phoenix Kreatif Digital, pengelola Gigades.id, adalah Jl. Rusdi S. Abrus, Kuantan Tengah, Kab. Kuantan Singingi, Riau."
+
+  utter_thank:
+  - text: 'Sama-sama! Jika Anda memiliki pertanyaan lain, jangan ragu untuk bertanya. Silahkan hubungi customer service kami.'
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

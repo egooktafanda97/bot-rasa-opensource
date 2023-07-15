@@ -1,0 +1,51 @@
+version: '3.1'
+
+stories:
+  - story: User mencari informasi gigades
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: informasi_gigades
+      - action: utter_info_gigades
+
+  - story: User mencari harga gigades
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_harga_aplikasi
+      - action: utter_info_harga_gigades
+
+  - story: User menanyakan biaya langganan
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_biaya
+      - action: utter_info_langganan
+
+  - story: User menanyakan layanan gigades
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_layanan
+      - action: utter_info_layanan
+
+  - story: User menanyakan testimoni
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_pengguna
+      - action: utter_info_testimoni
+
+  - story: User menanyakan tutorial
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: inform_tutorial
+      - action: utter_info_tutorial
+
+  - story: User mengucapkan terima kasih
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: thank
+      - action: utter_thank

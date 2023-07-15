@@ -1,0 +1,56 @@
+version: '3.1'
+
+nlu:
+  - intent: greet
+    examples: |
+      - Assalamualaikum
+      - ass
+      - Hai
+      - Halo
+      - Selamat Pagi
+      - Selamat Siang
+      - Selamat sore
+
+  - intent: informasi_gigades
+    examples: |
+      - Di mana toko sepatu terdekat?
+      - Profil dan Brosur
+      - Desa Pengguna
+      - Harga Produk
+
+  - intent: inform_harga_aplikasi
+    examples: |
+      - Berapa harga aplikasi desa gigades.id?
+      - Berapa harga oncard?
+
+  - intent: inform_biaya
+    examples: |
+      - Berapa biaya instalasi?
+      - Berapa biaya perbulan?
+
+  - intent: inform_layanan
+    examples: |
+      - Apasaja yang ada di gigades?
+      - Apasaja layanan phoenix?
+      - Berikan saya informasi perusahaan?
+      - Apa yang di layanan yang saya dapat?
+
+  - intent: inform_pengguna
+    examples: |
+      - Desa mana saja yang sudah menggunakan gigades?
+      - Siapa pengguna gigades?
+      - apakah desa menggunakan gigades.id?
+      - berikan saya informasi testimoni?
+      - Testimoni gigades.id?
+
+  - intent: inform_tutorial
+    examples: |
+      - Bagaimana cara menggunakan gigades.id?
+      - Bagaimana cara nya menginput data penduduk?
+
+  - intent: thank
+    examples: |
+      - Terima kasih
+      - Terima kasih banyak
+      - Makasih
+      - Terima kasih ya

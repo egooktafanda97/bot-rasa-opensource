@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Apakah ada diskon atau promo khusus yang sedang berlangsung?",
+    "intent": "inform_biaya",
+    "intent_prediction": {
+      "name": "inform_harga_aplikasi",
+      "confidence": 0.5465888381004333
+    }
+  },
+  {
+    "text": "Jika tidak ada respon dalam waktu 30 menit, apa yang harus saya lakukan?",
+    "intent": "kaduan_teknis",
+    "intent_prediction": {
+      "name": "hubungi_cs",
+      "confidence": 0.49170124530792236
+    }
+  },
+  {
+    "text": "siapa yang bisa saya hubungi?",
+    "intent": "hubungi_cs",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6038897037506104
+    }
+  }
+]

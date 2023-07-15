@@ -1,0 +1,146 @@
+version: '3.1'
+
+nlu:
+  - intent: greet
+    examples: |
+      - Assalamualaikum
+      - ass
+      - Hai
+      - Halo
+      - Selamat Pagi
+      - Selamat Siang
+      - Selamat sore
+      - Hai, apa kabar?
+      - Hai, ada yang bisa saya bantu?
+      - Halo, apa yang bisa saya bantu?
+      - Selamat datang, ada yang bisa saya bantu?
+
+  - intent: informasi_gigades
+    examples: |
+      - apa itu gigades?
+      - apa itu gigades.id?
+      - untuk apa gigades?
+      - Apa saja fitur yang dimiliki gigades?
+      - Bagaimana cara menggunakan gigades?
+      - Apakah gigades bisa membantu desa dalam pengelolaan data?
+      - Apa keunggulan gigades dibandingkan dengan solusi lain?
+      - Bagaimana gigades membantu meningkatkan pelayanan di desa?
+      - Apa saja manfaat dari penggunaan gigades?
+      - Apa saja yang bisa dilakukan menggunakan gigades?
+      - Informasi tentang Gigades
+      - Apa yang Gigades tawarkan?
+      - Layanan apa yang disediakan oleh Gigades?
+      - Apa yang dimaksud dengan Gigades?
+      - Bagaimana Gigades dapat membantu dalam administrasi pelayanan masyarakat?
+      - Saya ingin tahu lebih banyak tentang Gigades
+
+  - intent: inform_harga_aplikasi
+    examples: |
+      - Berapa harga aplikasi desa gigades.id?
+      - Berapa harga oncard?
+      - Apa saja komponen biaya yang terkait dengan aplikasi gigades?
+      - Bagaimana sistem pembayaran aplikasi gigades?
+      - Apakah ada biaya tambahan yang perlu diperhatikan?
+      - Bagaimana cara mendapatkan informasi lengkap tentang harga aplikasi gigades?
+      - Apakah ada paket harga khusus untuk desa dengan kebutuhan tertentu?
+      - Apakah ada diskon atau promo khusus yang sedang berlangsung?
+      - Apakah biaya aplikasi gigades termasuk pemeliharaan dan dukungan teknis?
+      - Bagaimana cara pembayaran untuk aplikasi gigades?
+
+  - intent: inform_biaya
+    examples: |
+      - Berapa biaya instalasi?
+      - Berapa biaya perbulan?
+      - Berapa?
+      - Bagaimana sistem pembayaran untuk biaya instalasi dan perbulanan?
+      - Apakah ada biaya tambahan selain biaya instalasi dan perbulanan?
+      - Bagaimana cara mendapatkan informasi lengkap tentang biaya gigades?
+      - Apakah ada paket biaya khusus untuk desa dengan kebutuhan tertentu?
+      - Apakah ada diskon atau promo khusus yang sedang berlangsung?
+      - Apakah biaya gigades termasuk pemeliharaan dan dukungan teknis?
+      - Bagaimana cara pembayaran untuk biaya gigades?
+      - Bagaimana cara perhitungan biaya instalasi dan perbulanan?
+
+  - intent: inform_layanan
+    examples: |
+      - Apasaja yang ada di gigades?
+      - Apasaja layanan phoenix?
+      - Berikan saya informasi perusahaan?
+      - Apa yang di layanan yang saya dapat?
+      - Apa saja fitur dari aplikasi gigades?
+      - Bagaimana gigades membantu dalam pengelolaan administrasi desa?
+      - Apakah gigades menyediakan layanan konsultasi?
+      - Apakah gigades memiliki fitur untuk pengelolaan keuangan desa?
+      - Bagaimana gigades membantu dalam pengelolaan data penduduk?
+      - Apakah gigades memiliki fitur komunikasi antara pemerintah desa dan warga?
+
+  - intent: inform_pengguna
+    examples: |
+      - Desa mana saja yang sudah menggunakan gigades?
+      - Siapa pengguna gigades?
+      - apakah desa menggunakan gigades.id?
+      - berikan saya informasi testimoni?
+      - Testimoni gigades.id?
+      - Bagaimana pengalaman pengguna lain dengan gigades?
+      - Apakah ada referensi desa yang sudah berhasil menggunakan gigades?
+      - Bisakah saya melihat daftar desa yang menggunakan gigades?
+      - Apakah ada contoh kasus penggunaan gigades yang sukses?
+      - Bagaimana desa-desa lain mengimplementasikan gigades?
+
+  - intent: inform_tutorial
+    examples: |
+      - Bagaimana cara menggunakan gigades.id?
+      - Bagaimana cara nya menginput data penduduk?
+      - Apakah ada tutorial penggunaan gigades yang tersedia?
+      - Bagaimana langkah-langkah untuk memulai menggunakan gigades?
+      - Apa saja yang perlu dilakukan untuk mengimplementasikan gigades di desa?
+      - Apakah ada panduan penggunaan aplikasi gigades?
+      - Bagaimana cara mengakses fitur-fitur gigades?
+      - Apa saja langkah-langkah untuk mengelola data penduduk menggunakan gigades?
+      - Bagaimana cara melihat laporan dan statistik menggunakan gigades?
+      - Apakah ada sumber daya atau dokumentasi yang dapat saya gunakan untuk belajar gigades?
+
+  - intent: kaduan_teknis
+    examples: |
+      - Saya ingin mengajukan kaduan teknis
+      - Bagaimana cara menghubungi untuk kaduan teknis?
+      - Apa langkah-langkah verifikasi yang perlu saya lakukan untuk kaduan teknis?
+      - Berapa lama waktu yang dibutuhkan untuk mendapatkan respon kaduan teknis?
+      - Jika tidak ada respon dalam waktu 30 menit, apa yang harus saya lakukan?
+      - Apa saja informasi yang perlu saya berikan saat menghubungi Customer Service?
+      - Bagaimana cara mengisi data dengan lengkap?
+      - Bagaimana jika saya ingin menghubungi Customer Service Gigades?
+
+  - intent: hubungi_cs
+    examples: |
+      - siapa yang bisa saya hubungi?
+      - Saya ingin menghubungi Customer Service
+      - siapa yang bisa saya hubungi?
+      - Bagaimana cara menghubungi CS Gigades?
+      - Apa yang harus saya lakukan untuk menghubungi Customer Service?
+      - Berapa lama waktu yang dibutuhkan untuk mendapatkan respon dari CS?
+      - Jika tidak ada respon dalam waktu 30 menit, apa yang harus saya lakukan?
+      - Apa informasi yang perlu saya berikan saat menghubungi Customer Service?
+      - Bagaimana cara mengisi data dengan lengkap saat menghubungi Customer Service?
+
+  - intent: inform_alamat
+    examples: |
+      - Alamat PT. Phoenix Kreatif Digital.
+      - Dimana lokasi Gigades.id?
+      - Di mana kantor Gigades.id berada?
+      - Alamat kantor Gigades.id.
+      - Jl. Rusdi S. Abrus, Kuantan Tengah, Kab. Kuantan Singingi, Riau.
+      - Alamat lengkap Gigades.id.
+
+  - intent: thank
+    examples: |
+      - Terima kasih
+      - Terima kasih banyak
+      - Makasih
+      - Terima kasih ya
+      - Saya sangat berterima kasih atas bantuan Anda
+      - Terima kasih atas informasinya
+      - Saya menghargai bantuan Anda
+      - Terima kasih atas perhatiannya
+      - Terima kasih atas penjelasannya
+      - Saya berterima kasih atas waktu dan usahanya
